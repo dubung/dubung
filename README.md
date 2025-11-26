@@ -40,15 +40,21 @@
   <div align="left" style="display: inline-block; text-align: left; max-width: 600px; font-size: 14px;">
     <ul>
       <li>
-        🚗 <a href="https://github.com/dubung/Car-Wipers"><b>Car-Wipers</b></a><br/>
-        STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 타이머와 GPIO를 활용해 Low/High 속도와 간헐 모드를 구현하며,
-        기본적인 펌웨어 구조와 모드 제어 로직을 연습했습니다.
+        📹 <a href="https://github.com/StrongThrow/blackbox-project"><b>smart-blackbox</b></a><br/>
+        라즈베리파이 5에서 Hailo를 통해 PETRv2 모델을 사용하는 스마트 블랙박스 프로젝트입니다. CARLA 시뮬레이터와 GStreamer를 활용해
+        실제와 유사한 영상·데이터 환경에서 객체 인식 기반 블랙박스 시스템을 구현했습니다.
       </li>
       <br/>
       <li>
         💡 <a href="https://github.com/dubung/smart-moodlight"><b>smart-moodlight</b></a><br/>
         라즈베리파이와 MCU를 함께 사용한 IoT 무드등 프로젝트입니다. RGB LED 조명 모드와 제어 로직을 구현하고,
         하드웨어 제어와 간단한 IoT 디바이스 동작 흐름을 경험했습니다.
+      </li>
+      <br/>
+      <li>
+        🚗 <a href="https://github.com/dubung/Car-Wipers"><b>Car-Wipers</b></a><br/>
+        STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 서보 모터와 수위 센서를 이용해 자동/수동 모드를 구현하고,
+        기본적인 펌웨어 구조와 모드 제어 로직을 연습했습니다.
       </li>
     </ul>
   </div>

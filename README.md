@@ -23,8 +23,6 @@ MCU, 라즈베리파이, 센서 등을 다루며 하드웨어와 소프트웨어
 
 **Linux & BSP**  
 ![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-000000?style=flat&logo=linux&logoColor=white)
-![Yocto](https://img.shields.io/badge/Yocto_Project-35495E?style=flat)
-![AGL](https://img.shields.io/badge/Automotive_Grade_Linux-009639?style=flat)
 ![CAN Bus](https://img.shields.io/badge/CAN_Bus-003366?style=flat)
 
 **Multimedia / AI**  

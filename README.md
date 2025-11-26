@@ -5,9 +5,9 @@
 <br>
 
 <div align="center"> 
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 👋 About Me </h2>  
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 👋 안녕하세요 주니어 개발자 이두현입니다.</h2>  
   <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-    임베디드 시스템과 IoT 디바이스를 만드는 데 관심이 많은 주니어 개발자 이두현입니다. <br>
+    <br>
     MCU, 라즈베리파이, 센서 등을 다루며 하드웨어와 소프트웨어가 자연스럽게 연결되는 시스템을 만드는 것을 좋아합니다.
   </div> 
 </div>

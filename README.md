@@ -18,17 +18,49 @@
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> 
   <br> 
   <div style="margin: 0 auto; text-align: center;">
-    <!-- Language & Basic -->
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=C&logoColor=white" />
-    <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=C%2B%2B&logoColor=white" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" />
-    <br/>
-    <!-- Embedded & Tools -->
-    <img src="https://img.shields.io/badge/STM32-03234B?style=flat&logo=STMicroelectronics&logoColor=white" />
-    <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=Raspberry%20Pi&logoColor=white" />
-    <img src="https://img.shields.io/badge/Embedded%20Linux-000000?style=flat&logo=Linux&logoColor=white" />
-    <img src="https://img.shields.io/badge/Qt-41CD52?style=flat&logo=Qt&logoColor=white" />
+
+    <p><b>Languages</b></p>
+    <p>
+      <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+    </p>
+
+    <p><b>Embedded / MCU</b></p>
+    <p>
+      <img src="https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white" />
+      <img src="https://img.shields.io/badge/FreeRTOS-009688?style=flat" />
+      <img src="https://img.shields.io/badge/ESP8266-000000?style=flat" />
+      <img src="https://img.shields.io/badge/ESP32-000000?style=flat" />
+    </p>
+
+    <p><b>Linux &amp; BSP</b></p>
+    <p>
+      <img src="https://img.shields.io/badge/Embedded_Linux-000000?style=flat&logo=linux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Yocto_Project-35495E?style=flat" />
+      <img src="https://img.shields.io/badge/Automotive_Grade_Linux-009639?style=flat" />
+      <img src="https://img.shields.io/badge/CAN_Bus-003366?style=flat" />
+    </p>
+
+    <p><b>Multimedia / AI</b></p>
+    <p>
+      <img src="https://img.shields.io/badge/GStreamer-FF6F00?style=flat" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" />
+      <img src="https://img.shields.io/badge/Matrox_MIL-000000?style=flat" />
+      <img src="https://img.shields.io/badge/Cognex-FFD700?style=flat" />
+      <img src="https://img.shields.io/badge/Hailo--8-FF1493?style=flat" />
+      <img src="https://img.shields.io/badge/CARLA_Simulator-000000?style=flat" />
+    </p>
+
+    <p><b>Tools</b></p>
+    <p>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" />
+      <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat" />
+      <img src="https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white" />
+    </p>
+
   </div>
 </div>
 

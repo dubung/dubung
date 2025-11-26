@@ -7,8 +7,8 @@
 <div align="center"> 
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 👋 About Me </h2>  
   <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;">
-    임베디드 시스템과 펌웨어 개발에 관심이 많은 주니어 개발자 이두현입니다. <br>
-    MCU, 센서, 통신 모듈을 활용해 하드웨어와 소프트웨어가 자연스럽게 동작하는 시스템을 만드는 것을 좋아합니다.
+    임베디드 시스템과 IoT 디바이스를 만드는 데 관심이 많은 주니어 개발자 이두현입니다. <br>
+    MCU, 라즈베리파이, 센서 등을 다루며 하드웨어와 소프트웨어가 자연스럽게 연결되는 시스템을 만드는 것을 좋아합니다.
   </div> 
 </div>
 
@@ -40,10 +40,15 @@
   <div align="left" style="display: inline-block; text-align: left; max-width: 600px; font-size: 14px;">
     <ul>
       <li>
-        <a href="https://github.com/dubung/Car-Wipers"><b>Car-Wipers</b></a> – STM32 기반 자동차 와이퍼 제어 프로젝트 (모드별 속도/동작 제어)
+        🚗 <a href="https://github.com/dubung/Car-Wipers"><b>Car-Wipers</b></a><br/>
+        STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 타이머와 GPIO를 활용해 Low/High 속도와 간헐 모드를 구현하며,
+        기본적인 펌웨어 구조와 모드 제어 로직을 연습했습니다.
       </li>
+      <br/>
       <li>
-        <a href="https://github.com/dubung/smart-moodlight"><b>smart-moodlight</b></a> – MCU 기반 스마트 무드등 프로젝트 (RGB LED 및 모드 제어)
+        💡 <a href="https://github.com/dubung/smart-moodlight"><b>smart-moodlight</b></a><br/>
+        라즈베리파이와 MCU를 함께 사용한 IoT 무드등 프로젝트입니다. RGB LED 조명 모드와 제어 로직을 구현하고,
+        하드웨어 제어와 간단한 IoT 디바이스 동작 흐름을 경험했습니다.
       </li>
     </ul>
   </div>
@@ -58,15 +63,5 @@
     <a href="mailto:dlengussla1@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white" />
     </a>
-  </div> 
-</div>
-
-<br>
-
-<div align="center"> 
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2>
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=dubung&custom_title=dubung's%20GitHub%20Stats&bg_color=180,FFFFFF,DDDDDD&title_color=000000&text_color=000000" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dubung&layout=compact&bg_color=180,FFFFFF,DDDDDD&title_color=000000&text_color=000000" />
   </div> 
 </div>

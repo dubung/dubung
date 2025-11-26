@@ -28,7 +28,7 @@ MCU, 라즈베리파이, 센서 등을 다루며 하드웨어와 소프트웨어
 **Multimedia / AI**  
 ![GStreamer](https://img.shields.io/badge/GStreamer-FF6F00?style=flat)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![MIL](https://img.shields.io/badge/Matrox_MIL-000000?style=flat)
+![MIL](https://img.shields.io/badge/MIL-000000?style=flat)
 ![Cognex](https://img.shields.io/badge/Cognex-FFD700?style=flat)
 ![Hailo-8](https://img.shields.io/badge/Hailo--8-FF1493?style=flat)
 ![CARLA](https://img.shields.io/badge/CARLA_Simulator-000000?style=flat)

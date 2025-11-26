@@ -53,9 +53,15 @@ MCU, 라즈베리파이, 센서 등을 다루며 하드웨어와 소프트웨어
 - 🚗 [Car-Wipers](https://github.com/dubung/Car-Wipers)  
   STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 서보 모터와 수위 센서를 이용해 자동/수동 모드를 구현하고, 기본적인 펌웨어 구조와 모드 제어 로직을 연습했습니다.
 
-- 📘 [baekjoon-ps](https://github.com/dubung/Algorithm)  
-  백준, 프로그래머스 문제 풀이를 정리한 레포지토리입니다. C/C++ 위주로 풀이를 정리하고 있습니다.
+---
 
+## 📚 Study & Algorithm
+
+- 📘 [Algorithm](https://github.com/dubung/Algorithm)  
+  백준, 프로그래머스 문제 풀이를 정리한 레포지토리입니다. C/C++ 위주로 문제를 풀이하고 있습니다.
+
+- 🔢 [sort-practice](https://github.com/레포이름)  
+  버블 정렬, 선택 정렬, 삽입 정렬, 퀵 정렬 등 기본 정렬 알고리즘을 직접 구현해 본 레포지토리입니다. 각 정렬의 동작 방식을 코드와 함께 정리하고 있습니다.
 
 ---
 

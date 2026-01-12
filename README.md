@@ -44,18 +44,22 @@
 
 ## 📂 Projects
 
-- 🔥 [ess-guardian](https://github.com/dubung/ess-Guardian)
-  ESS 시설의 **화재/가스/환경 이상 감지 → 로봇 순찰(ROS2/Nav2) → MQTT 전송 → 서버/DB/UI 관제**까지 연결한 통합 안전 시스템입니다. 
+- 🔥 [ess-guardian](https://github.com/dubung/ess-Guardian)  
+  ESS 시설의 **화재/가스/환경 이상 감지 → 로봇 순찰(ROS2/Nav2) → MQTT 전송 → 서버/DB/UI 관제**까지 연결한 통합 안전 시스템입니다.  
+  - 담당: ROS2/Navigation — Nav2 순찰/상태머신(50ms FSM), Emergency 우선 처리, 리프터 GPIO 제어, Home 복귀 + ArUco 정렬 연동
+
 
 - 📹 [smart-blackbox](https://github.com/StrongThrow/blackbox-project)  
-  라즈베리파이 5에서 Hailo를 통해 PETRv2 모델을 사용하는 스마트 블랙박스 프로젝트입니다. CARLA 시뮬레이터와 GStreamer를 활용해 실제와 유사한 영상·데이터 환경에서 객체 인식 기반 블랙박스 시스템을 구현했습니다.
+  Raspberry Pi 5 + Hailo(PETRv2) 기반 스마트 블랙박스 프로젝트입니다. CARLA + GStreamer로 실환경 유사 스트리밍을 구성하고 객체 인식 기반 이벤트 흐름을 구현했습니다.  
+  - 담당: GStream을 이용한 Carla -> RaspberryPi 영상 데이터 전송 및 PETRv2 모델을 파이프라인에 맞게 적용하여 ONNX 까지 흘림
 
 - 💡 [smart-moodlight](https://github.com/dubung/smart-moodlight)  
-  라즈베리파이와 MCU를 함께 사용한 IoT 무드등 프로젝트입니다. RGB LED 조명 모드와 제어 로직을 구현하고, 하드웨어 제어와 간단한 IoT 디바이스 동작 흐름을 경험했습니다.
+  라즈베리파이 + MCU 기반 IoT 무드등 프로젝트입니다. RGB LED 모드와 제어 로직을 구현했습니다.  
+  - 담당: 통신, APP, MariaDB, 날씨 API를이용한 날씨 데이터 확보 및 LCD 출력 기능 
 
 - 🚗 [Car-Wipers](https://github.com/dubung/Car-Wipers)  
-  STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 서보 모터와 수위 센서를 이용해 자동/수동 모드를 구현하고, 기본적인 펌웨어 구조와 모드 제어 로직을 연습했습니다.
-
+  STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 자동/수동 모드와 전체 펌웨어 흐름을 구성했습니다.  
+  - 기여: 동작의 흐름 구조, 서보모터제어를 구조체+함수포인터로 서보 제어 API를 캡슐화(재사용/확장 목적)
 ---
 
 ## 📚 Study & Algorithm

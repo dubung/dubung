@@ -81,7 +81,6 @@
 - **핵심 기술:** C, Linux Kernel, GPIO Interrupt, Workqueue, I2C(SSD1306), DS1302, Raspberry Pi
 - **주요 기여**
   - DS1302 통신을 **Bit-banging 방식으로 구현**(타이밍/신호 제어 기반) 및 시간 읽기/설정 기능 연동
-  - (팀 프로젝트였다면) 내가 담당한 HW/통신 파트 중심으로 기능 검증 및 트러블슈팅 수행
 - **Repository:** [SI-TA-PO](https://github.com/dubung/SI-TA-PO)
 
 ---

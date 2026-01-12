@@ -1,8 +1,4 @@
-
-
 ## 안녕하세요 주니어 개발자 이두현입니다.
-
-
 
 ---
 
@@ -39,9 +35,10 @@
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 
 ---
+
 ## 📂 Projects
 
-###  ESS 시설 이상 감지 및 관제 시스템 (E.S.S.E.N.T.I.A.L)
+### 🔋 ESS 시설 이상 감지 및 관제 시스템 (E.S.S.E.N.T.I.A.L)
 - **핵심 기술:** ROS2, Nav2, C++, MQTT, MariaDB, Qt, Raspberry Pi, STM32, OpenCV, RFID
 - **주요 기여**
   - `control_node` 단일 노드로 **50ms Tick FSM** 기반 순찰/리프터/열화상 트리거/홈 복귀를 통합 제어
@@ -52,7 +49,7 @@
 
 ---
 
-###  Raspberry Pi 5 + Hailo 기반 Smart Blackbox
+### 📹 Raspberry Pi 5 + Hailo 기반 Smart Blackbox
 - **핵심 기술:** Raspberry Pi 5, Hailo-8, Python, GStreamer, CARLA, PETRv2, ONNX
 - **주요 기여**
   - CARLA → Raspberry Pi 영상 스트리밍 파이프라인 구성(GStreamer)
@@ -61,7 +58,7 @@
 
 ---
 
-###  라즈베리파이 + MCU IoT 무드등 (smart-moodlight)
+### 💡 라즈베리파이 + MCU IoT 무드등 (smart-moodlight)
 - **핵심 기술:** Raspberry Pi, STM32/MCU, MariaDB, (App/통신), Weather API, LCD
 - **주요 기여**
   - 앱/통신 흐름 구현 및 DB(MariaDB) 연동
@@ -70,7 +67,7 @@
 
 ---
 
-###  STM32 기반 자동차 와이퍼 제어 (Car-Wipers)
+### 🚗 STM32 기반 자동차 와이퍼 제어 (Car-Wipers)
 - **핵심 기술:** STM32F4(HAL), C, ADC, PWM, Timer ISR, FSM, I2C(LCD)
 - **주요 기여**
   - 자동/수동 모드 포함 **전체 펌웨어 동작 흐름(FSM)** 설계
@@ -80,29 +77,28 @@
 
 ---
 
-###  Linux Kernel Device Driver 기반 시간 관리 임베디드 시스템 (SI-TA-PO)
+### ⏱️ Linux Kernel Device Driver 기반 시간 관리 임베디드 시스템 (SI-TA-PO)
 - **핵심 기술:** C, Linux Kernel, GPIO Interrupt, Workqueue, I2C(SSD1306), DS1302, Raspberry Pi
 - **주요 기여**
   - DS1302 통신을 **Bit-banging 방식으로 구현**(타이밍/신호 제어 기반) 및 시간 읽기/설정 기능 연동
   - (팀 프로젝트였다면) 내가 담당한 HW/통신 파트 중심으로 기능 검증 및 트러블슈팅 수행
-- **Repository:** [SI-TA-PO](https://github.com/dubung/SI-TA-PO))
+- **Repository:** [SI-TA-PO](https://github.com/dubung/SI-TA-PO)
 
 ---
 
-##  Study & Algorithm
+## Study & Algorithm
 
--  [Algorithm](https://github.com/dubung/Algorithm)  
-  백준, 프로그래머스 문제 풀이를 정리한 레포지토리입니다. C/C++ 위주로 문제를 풀이하고 있습니다.
+- 📘 [Algorithm](https://github.com/dubung/Algorithm)  
+  백준, 프로그래머스 문제 풀이를 정리한 레포지토리입니다. C/C++ 위주로 풀이합니다.
 
--  [sort-practice](https://github.com/dubung/MySort)  
-  버블 정렬, 선택 정렬, 삽입 정렬, 퀵 정렬 등 기본 정렬 알고리즘을 직접 구현해 본 레포지토리입니다. 각 정렬의 동작 방식을 코드와 함께 정리하고 있습니다.
+- 🔢 [sort-practice](https://github.com/dubung/MySort)  
+  버블/선택/삽입/퀵 정렬 등 기본 정렬 알고리즘을 직접 구현해 정리했습니다.
 
--  [Simple_ImageProcessingTool](https://github.com/dubung/Simple_ImageProcessingTool)  
+- 🖼️ [Simple_ImageProcessingTool](https://github.com/dubung/Simple_ImageProcessingTool)  
   MFC로 영상처리 툴 형태를 만들며 컨볼루션/히스토그램/에지 검출 등 기본 알고리즘을 구현했고, 파라미터 변경에 따른 결과를 비교할 수 있게 구성했습니다.
 
-
 ---
 
-##  Contact Me
+## Contact Me
 
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white)](mailto:dlengussla1@gmail.com)

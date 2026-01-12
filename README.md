@@ -44,7 +44,7 @@
 
 ## 📂 Projects
 
-- 🔥 [ess-guardian](<YOUR_REPO_LINK>)  
+- 🔥 [ess-guardian](https://github.com/dubung/ess-Guardian)
   ESS 시설의 **화재/가스/환경 이상 감지 → 로봇 순찰(ROS2/Nav2) → MQTT 전송 → 서버/DB/UI 관제**까지 연결한 통합 안전 시스템입니다. 
 
 - 📹 [smart-blackbox](https://github.com/StrongThrow/blackbox-project)  

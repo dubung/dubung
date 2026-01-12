@@ -44,6 +44,9 @@
 
 ## 📂 Projects
 
+- 🔥 [ess-guardian](<YOUR_REPO_LINK>)  
+  ESS 시설의 **화재/가스/환경 이상 감지 → 로봇 순찰(ROS2/Nav2) → MQTT 전송 → 서버/DB/UI 관제**까지 연결한 통합 안전 시스템입니다. 
+
 - 📹 [smart-blackbox](https://github.com/StrongThrow/blackbox-project)  
   라즈베리파이 5에서 Hailo를 통해 PETRv2 모델을 사용하는 스마트 블랙박스 프로젝트입니다. CARLA 시뮬레이터와 GStreamer를 활용해 실제와 유사한 영상·데이터 환경에서 객체 인식 기반 블랙박스 시스템을 구현했습니다.
 

@@ -39,25 +39,54 @@
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 
 ---
-
 ## 📂 Projects
 
--  [ess-guardian](https://github.com/dubung/ess-Guardian)  
-  ESS 시설의 **화재/가스/환경 이상 감지 → 로봇 순찰(ROS2/Nav2) → MQTT 전송 → 서버/DB/UI 관제**까지 연결한 통합 안전 시스템입니다.  
-  - 담당: ROS2/Navigation — Nav2 순찰/상태머신(50ms FSM), Emergency 우선 처리, 리프터 GPIO 제어, Home 복귀 + ArUco 정렬 연동
+###  ESS 시설 이상 감지 및 관제 시스템 (E.S.S.E.N.T.I.A.L)
+- **핵심 기술:** ROS2, Nav2, C++, MQTT, MariaDB, Qt, Raspberry Pi, STM32, OpenCV, RFID
+- **주요 기여**
+  - `control_node` 단일 노드로 **50ms Tick FSM** 기반 순찰/리프터/열화상 트리거/홈 복귀를 통합 제어
+  - Nav2 Action(`navigate_to_pose`) 기반 **Zone 순찰 + Home 복귀**, TF(`map→base_link`)로 현재 위치 추적 및 Zone 상태 발행
+  - `/ess/priority_zone` 수신 시 **Goal 강제 취소 + 정지 + Emergency Queue 우선 처리** 로직 구현
+  - 홈 도착 후 **ArUco 정렬 요청/ACK + 10초 타임아웃 fail-safe** 적용
+- **Repository:** [ess-guardian](https://github.com/dubung/ess-Guardian)
 
+---
 
--  [smart-blackbox](https://github.com/StrongThrow/blackbox-project)  
-  Raspberry Pi 5 + Hailo(PETRv2) 기반 스마트 블랙박스 프로젝트입니다. CARLA + GStreamer로 실환경 유사 스트리밍을 구성하고 객체 인식 기반 이벤트 흐름을 구현했습니다.  
-  - 담당: GStream을 이용한 Carla -> RaspberryPi 영상 데이터 전송 및 PETRv2 모델을 파이프라인에 맞게 적용하여 ONNX 까지 흘림
+###  Raspberry Pi 5 + Hailo 기반 Smart Blackbox
+- **핵심 기술:** Raspberry Pi 5, Hailo-8, Python, GStreamer, CARLA, PETRv2, ONNX
+- **주요 기여**
+  - CARLA → Raspberry Pi 영상 스트리밍 파이프라인 구성(GStreamer)
+  - PETRv2 추론 파이프라인 적용 및 후처리(ONNX) 흐름 연결
+- **Repository:** [smart-blackbox](https://github.com/StrongThrow/blackbox-project)
 
--  [smart-moodlight](https://github.com/dubung/smart-moodlight)  
-  라즈베리파이 + MCU 기반 IoT 무드등 프로젝트입니다. RGB LED 모드와 제어 로직을 구현했습니다.  
-  - 담당: 통신, APP, MariaDB, 날씨 API를이용한 날씨 데이터 확보 및 LCD 출력 기능 
+---
 
--  [Car-Wipers](https://github.com/dubung/Car-Wipers)  
-  STM32 기반 자동차 와이퍼 제어 프로젝트입니다. 자동/수동 모드와 전체 펌웨어 흐름을 구성했습니다.  
-  - 기여: 동작의 흐름 구조, 서보모터제어를 구조체+함수포인터로 서보 제어 API를 캡슐화(재사용/확장 목적)
+###  라즈베리파이 + MCU IoT 무드등 (smart-moodlight)
+- **핵심 기술:** Raspberry Pi, STM32/MCU, MariaDB, (App/통신), Weather API, LCD
+- **주요 기여**
+  - 앱/통신 흐름 구현 및 DB(MariaDB) 연동
+  - Weather API로 날씨 데이터 수집 → LCD 출력 기능 구현
+- **Repository:** [smart-moodlight](https://github.com/dubung/smart-moodlight)
+
+---
+
+###  STM32 기반 자동차 와이퍼 제어 (Car-Wipers)
+- **핵심 기술:** STM32F4(HAL), C, ADC, PWM, Timer ISR, FSM, I2C(LCD)
+- **주요 기여**
+  - 자동/수동 모드 포함 **전체 펌웨어 동작 흐름(FSM)** 설계
+  - Servo 제어를 **구조체 + 함수포인터 기반 API로 캡슐화**(재사용/확장 목적)
+  - ADC 입력(조이스틱/수위) + 타이머 기반 와이퍼 스윕 로직 구현
+- **Repository:** [Car-Wipers](https://github.com/dubung/Car-Wipers)
+
+---
+
+###  Linux Kernel Device Driver 기반 시간 관리 임베디드 시스템 (SI-TA-PO)
+- **핵심 기술:** C, Linux Kernel, GPIO Interrupt, Workqueue, I2C(SSD1306), DS1302, Raspberry Pi
+- **주요 기여**
+  - DS1302 통신을 **Bit-banging 방식으로 구현**(타이밍/신호 제어 기반) 및 시간 읽기/설정 기능 연동
+  - (팀 프로젝트였다면) 내가 담당한 HW/통신 파트 중심으로 기능 검증 및 트러블슈팅 수행
+- **Repository:** [SI-TA-PO](REPO_LINK_HERE)
+
 ---
 
 ##  Study & Algorithm
@@ -68,8 +97,8 @@
 -  [sort-practice](https://github.com/dubung/MySort)  
   버블 정렬, 선택 정렬, 삽입 정렬, 퀵 정렬 등 기본 정렬 알고리즘을 직접 구현해 본 레포지토리입니다. 각 정렬의 동작 방식을 코드와 함께 정리하고 있습니다.
 
--  [Simple_ImageProcessingTool](https://github.com/dubung/Simple_ImageProcessingTool)  
-  MFC로 영상처리 툴 형태를 만들며 컨볼루션/히스토그램/에지 검출 등 기본 알고리즘을 구현했고, 파라미터 변경에 따른 결과를 비교할 수 있게 구성했습니다.
+-  [sort-practice](https://github.com/dubung/MySort)  
+  
 
 ---
 

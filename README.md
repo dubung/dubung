@@ -97,8 +97,9 @@
 -  [sort-practice](https://github.com/dubung/MySort)  
   버블 정렬, 선택 정렬, 삽입 정렬, 퀵 정렬 등 기본 정렬 알고리즘을 직접 구현해 본 레포지토리입니다. 각 정렬의 동작 방식을 코드와 함께 정리하고 있습니다.
 
--  [sort-practice](https://github.com/dubung/MySort)  
-  
+-  [Simple_ImageProcessingTool](https://github.com/dubung/Simple_ImageProcessingTool)  
+  MFC로 영상처리 툴 형태를 만들며 컨볼루션/히스토그램/에지 검출 등 기본 알고리즘을 구현했고, 파라미터 변경에 따른 결과를 비교할 수 있게 구성했습니다.
+
 
 ---
 

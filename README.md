@@ -54,7 +54,7 @@
 - **주요 기여**
   - CARLA → Raspberry Pi 영상 스트리밍 파이프라인 구성(GStreamer)
   - PETRv2 추론 파이프라인 적용 및 후처리(ONNX) 흐름 연결
-- **Repository:** [smart-blackbox](https://github.com/StrongThrow/blackbox-project)
+- **Repository:** [smart-blackbox](https://github.com/dubung/blackbox-project)
 
 ---
 
